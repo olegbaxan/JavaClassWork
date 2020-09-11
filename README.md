@@ -1,4 +1,1 @@
 # JavaClassWork
-
-*.pptx
-*.class
