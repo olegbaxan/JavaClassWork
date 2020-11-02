@@ -16,6 +16,14 @@ public class Main {
         person.add(new Person("Dumitru", LocalDate.of(2000,01,06)));
         person.add(new Person("Doina", LocalDate.of(2000,11,06)));
 
+        for(Person p: person){
+            System.out.println(p.name);
+        }
         Collections.sort(person);
+        
+        for(Person p: person){
+            System.out.println(p.name);
+        }
     }
+
 }
