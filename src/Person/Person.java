@@ -11,11 +11,11 @@ public class Person implements Comparable<Person>{
         this.birthday=birthday;
     }
     public int compareTo(Person p){
-        return this.name.compareTo(p.name);
 
+        //return this.name.compareTo(p.name);
+
+        return this.birthday.compareTo(p.birthday);
 
     }
-    public boolean isEquals(Person p){
-        return this.birthday.isEqual(p.birthday);
-    }
+
 }
